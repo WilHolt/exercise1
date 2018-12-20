@@ -24,8 +24,8 @@ public:
  bool getFound(){
      return found;
  }
-  void setFound(){
-    this->found = found
+  void setFound(bool found ){
+    this->found = found;
  }
     };
 
